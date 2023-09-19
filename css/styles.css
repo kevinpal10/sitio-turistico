@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(26, 25, 25, 0.986);
+}
+
+#header{
+    height: 650px;
+    background: url('./img/volcan-titl.jpg');
+    opacity: 0.8;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#nav{
+    background-color: rgba(240, 255, 255, 0.24);
+    height: 40px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+
+#nav ul li{
+    display: inline-block;
+    line-height: 40px;
+}
+
+#nav ul li a{
+    color: rgba(5, 35, 99, 0.89);
+    text-decoration: none;
+    margin-left: 10px;  
+    text-align: center;   
+}
+
+#nav ul li:hover{
+    background-color: rgba(52, 116, 212, 0.705);
+    height: 45px;
+    width: auto;
+    align-content: center;
+    font-size: 20px;
+    line-height: 45px;
+    border-radius: 5px;
+}
+
+#nav ul li:hover a{
+    color: white;
+}
+
+#header .cebecera{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(160, 142, 38, 0.589);
+    margin-top: 210px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#header .cebecera h1{
+    color: rgb(26, 19, 19);
+}
+
+#header .cabecera:hover h1{
+    animation: desdeDerecha 300ms linear;
+}
+
+@keyframes desdeDerecha {
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+/***************************************/
+
+.cuerpo{
+    width: 100%;
+    height: auto;
+    min-height: 580px;
+    background-image: url('./img/nature.jpg');
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.barra-lateral{
+    margin-left: 3%;
+    background-color: rgba(240, 248, 255, 0.479);
+}
+
+.barra-lateral .caja-lateral{
+    height: auto;
+    padding: 3%;
+}
+
+.barra-lateral .caja-lateral iframe{ /*      --------------      **/
+    width: 100%;
+    height: 200px;
+} 
+
+.barra-lateral .caja-lateral h3{
+    color: bisque;
+    text-align: center;
+}
+
+form{
+    border: 1px wheat solid;
+}
+
+form label{
+    color: azure;
+    display: inline-flex;
+    width: 40%;
+    text-align: end;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+form input[type="submit"]{
+    margin-top: 15px;
+    width: 30%;
+    height: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 15px;
+    background-color: rgba(122, 106, 86, 0.76);
+    border-radius: 6px;
+}
+
+form input{
+    width: 50%;
+    border-radius: 4px;
+}
+
+form span{
+    margin-left: 18px;
+}
+
+form a{
+    align-content: space-between;
+    text-decoration: none;
+    color: rgba(28, 37, 1, 0.911);
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.parrafos{
+    margin-top: 3%;
+    background-color: rgba(39, 43, 48, 0.5);
+    margin-left: 3%;
+}
+
+.caja-parrafos{
+    width: 100%;
+}
+
+.caja-parrafos h3{
+    color: aquamarine;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.caja-parrafos p{
+    height: auto;
+    color: rgb(223, 223, 223);
+    text-align: justify;
+    padding: 4px;
+}
+
+.caja-parrafos img{
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.caja-parrafos table{
+    border: 2px chocolate solid;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 8%;
+    color: azure;
+}
+
+.caja-parrafos td{
+    height: 20px;
+    border: 1px rgba(146, 105, 91, 0.575) solid;
+}
+
+/********************/
+
+.cards-content{
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+    background-image: url('./img/actividades.jpg');
+    padding-bottom: 20px;
+}
+
+.cards-bloque{
+    margin-left: 2.5%;
+}
+
+.cards-content h2{
+    color: rgb(243, 168, 6);
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+
+.cards{
+    width: 23%;
+    margin-top: 10px;
+    background-color: rgba(127, 255, 212, 0.26);
+    border-radius: 10px;
+}
+
+.cards:hover{
+    width: 360px;
+    height: 320px;
+}
+
+.cards img{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    height: 150px;
+    border-radius: 10px;
+}   
+
+.cards h3{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px    ;
+}
+
+.cards p{
+    padding:10px;
+    text-align: justify;
+}
+
+/********************/
+
+footer{
+    width: 100%;
+    min-height: 400px;
+    height: auto; 
+    padding-top: 20px;
+    background-color: rgba(24, 24, 24, 0.986);
+
+}
+
+.cajas{
+    height: 400px;
+}
+
+.cajas .content-caja{
+    width: 100%;
+}
+
+.content-caja iframe{
+    width: 90%;
+    height: 350px;
+    margin-left: 5%;
+}
+
+.content-caja h3{
+    color: wheat;
+    padding: 10px;
+    padding-left: 25px !important;
+}
+
+h4{
+    color: rgb(122, 194, 194);
+    padding-left: 25px;
+}
+
+.content-caja span{
+    margin-left: 50%;
+}
+
+.content-caja span a{
+    color: white;
+    text-decoration: none;
+}
+
+.content-caja form{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 80px;
+}
+
+.content-caja form span{
+    margin-left: 15%;
+}
+
+.content-caja .contactos{
+    margin-top: 50px;
+}
+
+.content-caja .redes{
+    margin-left: 30%;
+}
+
+.content-caja .redes a{
+    margin-left: 20px;
+    color: beige;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer span h4{
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer span h4 a{
+    color: rgb(243, 220, 220);
+    text-decoration: none;
+}
